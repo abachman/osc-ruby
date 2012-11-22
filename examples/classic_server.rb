@@ -16,3 +16,6 @@ end
 @client.send( OSC::Message.new( "/greeting", "hullo!" ))
 
 sleep( 3 )
+
+@server.stop
+
